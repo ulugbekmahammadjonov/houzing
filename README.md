@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is available on github [Create React App](https://github.com/ulugbekmahammadjonov/houzing).
 
 ## Available Scripts
 
