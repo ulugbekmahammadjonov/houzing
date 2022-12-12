@@ -11,4 +11,5 @@ font-family: 'Montserrat', sans-serif;}
   --colorSecondary: #696969;
   /* background */
   --background: #0061df;
+  --padding:0 130px;
 }

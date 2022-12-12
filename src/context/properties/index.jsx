@@ -12,4 +12,4 @@ const PropertiesProvider = ({ children }) => {
   )
 };
 
-export default RootContext;
+export default PropertiesProvider;
