@@ -1,15 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,600;1,700&display=swap');
-body{
-font-family: 'Montserrat', sans-serif;}
-*{
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+* {
   margin: 0;
   padding: 0;
 }
-:root{
+:root {
   /* color */
   --colorPrimary: #0d263b;
   --colorSecondary: #696969;
   /* background */
   --background: #0061df;
-  --padding:0 130px;
+  --padding: 0 130px;
+}
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #0d263b;
+}
+.subTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #0d263b;
 }

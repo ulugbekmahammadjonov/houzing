@@ -33,17 +33,29 @@ const Container = styled.input`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   min-width: 120px;
   font-size: 14px;
   height: ${({ height }) => (height ? `${height}px` : "44px")};
-  width: ${({ width }) => (width ? `${width}px` : "130px")};
-  // cursor: pointer;
-  border-radius: 2px; 
+  width: ${({ width }) => (width ? `${width}px` : "100%")};
+  border-radius: 2px;
   // ${getType}
-  outline:none;
-  border:2px solid #e6e9ec;
-  :active{
-    opacity:0.7;
+  outline: none;
+  border: 2px solid #e6e9ec;
+  padding-left: ${({ icon }) => (icon ? "35px" : "20px")};
+  :active {
+    opacity: 0.7;
   }
 `;
-export { Container };
+
+const Wrapper = styled.div`
+  width: ${({ width }) => (width ? `${width}px` : "100%")};
+  display: flex;
+  align-items: center;
+  position: relative;
+`;
+const Icon = styled.div`
+  position: absolute;
+  left:10px;
+`;
+export { Container, Wrapper, Icon };
