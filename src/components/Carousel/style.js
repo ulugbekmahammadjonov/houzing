@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { ReactComponent as arrow } from "../../assets/icons/arrow.svg";
 const Container = styled.div`
-  height: 571px;
-  border: 2px solid red;
+  height: fit-content;
   position: relative;
 `;
 const Arrow = styled(arrow)`
@@ -24,29 +23,27 @@ const Arrow = styled(arrow)`
 `;
 const Img = styled.img`
   width: 100%;
-  height: 571px;
 `;
 const Blur = styled.div`
   position: absolute;
-top: 0;
-bottom 0;
-left:0;
-right:0;
-background:rgba(0,0,0,0.5);
-  `;
-const Content = styled.div`
-    position: absolute;
   top: 0;
-bottom 0;
-left:0;
-right:0;
- display:flex;
- justify-content:center;
+  bottom 0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.5);
+`;
+const Content = styled.div`
+  position: absolute;
+  top: 0;
+  bottom 0;
+  left:0;
+  right:0;
+  display:flex;
+  justify-content:center;
   align-items:center;
   flex-direction:column;
   color:white; 
-
-  `;
+`;
 Content.Title = styled.h1`
   font-family: "Montserrat";
   font-style: normal;
@@ -55,7 +52,7 @@ Content.Title = styled.h1`
   line-height: 48px;
   letter-spacing: -0.02em;
   color: #ffffff;
-  margin-bottom:30px;
+  margin-bottom: 30px;
 `;
 Content.Desc = styled.div`
   font-family: "Montserrat";
@@ -72,6 +69,6 @@ Content.Price = styled.div`
   font-size: 28px;
   line-height: 36px;
   color: #ffffff;
-`
+`;
 
 export { Container, Arrow, Img, Blur, Content };

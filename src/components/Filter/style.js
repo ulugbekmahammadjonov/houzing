@@ -4,9 +4,11 @@ import { ReactComponent as filter } from "../../assets/icons/setting.svg";
 import { ReactComponent as search } from "../../assets/icons/search.svg";
 
 const Container = styled.div`
+  margin: 0 auto;
+  min-width: 1260px;
+  // width: 100%;
   display: flex;
-  align-items: center;
-  // justify-content:space-between;
+  justify-content:space-between;
   padding: var(--padding);
   padding-top: 10px;
   padding-bottom: 10px;
