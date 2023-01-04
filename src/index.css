@@ -12,7 +12,7 @@ body {
   --colorSecondary: #696969;
   /* background */
   --background: #0061df;
-  --padding: 0 130px;
+  --padding: 0 30px;
 }
 .title {
   font-family: "Montserrat";

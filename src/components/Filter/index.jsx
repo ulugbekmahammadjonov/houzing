@@ -45,7 +45,7 @@ const Filter = () => {
         <Input
           defaultValue={query.get("city")}
           onChange={onChange}
-          name="city"
+          name="address"
           ref={cityRef}
           placeholder={"City"}
         />
@@ -73,7 +73,10 @@ const Filter = () => {
 
   return (
     <Container>
-      <Input placeholder={"Enter an adres"} icon={<Icons.Hauses />} />
+      <Input
+        placeholder={"Enter an address, neighborhood, city, or ZIP code"}
+        icon={<Icons.Hauses />}
+      />
 
       <Dropdown
         overlay={menu}
