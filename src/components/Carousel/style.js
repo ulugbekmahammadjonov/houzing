@@ -5,6 +5,7 @@ const Container = styled.div`
   position: relative;
 `;
 const Arrow = styled(arrow)`
+  // box-sizing:content-box;
   z-index: 100;
   position: absolute;
   top: 45%;
@@ -16,6 +17,7 @@ const Arrow = styled(arrow)`
   transform: ${({ left }) => (left ? "rotate(-90deg)" : "rotate(+90deg)")};
   right: ${({ left }) => left && "20px"};
   left: ${({ left }) => !left && "20px"};
+
   cursor: pointer;
   :hover {
     background: rgba(255, 255, 255, 0.3);

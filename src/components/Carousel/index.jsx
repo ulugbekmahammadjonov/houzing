@@ -5,14 +5,6 @@ import { getValue } from "@testing-library/user-event/dist/utils";
 import img1 from "../../assets/img/house1.png";
 import img2 from "../../assets/img/house2.png";
 
-// const contentStyle = {
-//   margin: 0,
-//   height: "160px",
-//   color: "#fff",
-//   lineHeight: "160px",
-//   textAlign: "center",
-//   background: "#364d79",
-// };
 const GenCarousel = () => {
   const slider = useRef();
   const onChange = (currentSlide) => {
@@ -32,9 +24,10 @@ const GenCarousel = () => {
         <Img src={img1} />
         <Img src={img2} />
       </Carousel>
-      <Arrow data-name="right" onClick={onMove} left={getValue.toString()} />
-      <Arrow data-name="left" onClick={onMove} />
+      <Arrow onClick={onMove} data-name="right" left={getValue.toString()} />
+      <Arrow onClick={onMove} data-name="left" />
       <Blur />
+
       <Content>
         <Content.Title>Skyper Pool Partment</Content.Title>
         <Content.Desc>112 Glenwood Ave Hyde Park, Boston, MA</Content.Desc>
