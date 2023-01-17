@@ -4,6 +4,7 @@ import { Container, Section, Wrapper, Logo, Link, Main } from "./style";
 import { navbar } from "../../utils/navbar";
 import Button from "../Generic/Button";
 import Filter from "../Filter";
+import Footer from "../Footer"
 const Navbar = () => {
   const navigate = useNavigate();
   return (
@@ -33,6 +34,7 @@ const Navbar = () => {
       </Main>
        <Filter />
       <Outlet />
+      <Footer />
     </Container>
   );
 };

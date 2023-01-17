@@ -7,7 +7,7 @@ const Container = styled.div`
   min-width: 230px;
   max-height: 380px;
   min-height: 350px;
-
+  cursor:pointer;
   filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06))
     drop-shadow(0px 7px 46px rgba(0, 0, 0, 0.06))
     drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.06));
