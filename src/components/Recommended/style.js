@@ -9,7 +9,6 @@ const Container = styled.div`
   padding: 96px 30px;
   max-width: 1260px;
   width: 100%;
-  // text-align:center;
 `;
 
 const Content = styled.div`

@@ -11,11 +11,12 @@ const Container = styled.div`
   max-width: 380px;
   min-width: 330px;
   height: 429px;
-
-  filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06))
+  :hover{
+    filter: drop-shadow(0px 20px 38px rgba(0, 0, 0, 0.06))
     drop-shadow(0px 7px 46px rgba(0, 0, 0, 0.06))
     drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.06));
-  // margin: 100px;
+  }
+  cursor:pointer;
 `;
 const Img = styled.img`
   width: 100%;
